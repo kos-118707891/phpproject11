@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculator</title>
+        <script language="javascript" type="text/javascript">prototype;
+         function packageTotal() {
+                 //enter in prices here
+                 var x = 5;
+                 var y = 10;
+                 var p = x + y + 12;
+                 var b = y + 12;
+                         
+                 if (document.getElementById('basicProgram').checked){
+             // Basic package is checked 
+             document.calculate.total.value = b; 
+         } else if (document.getElementById('proProgram').checked){
+             //pro package is checked
+             document.calculator.total.value = p;
+         }
+     }
+     function calcDisc() {
+         var subTot = document.calculator.total.value;
+         var discTotal = ((subTot /100) *20);
+         document.calculator.vat.value = vatTotal;
+     }
+     
+     function calcVat () {
+         var subTott = document.calculator.total.value;
+         var discTotal = document.calculator.discount.value ;
+         var vatTot = document.calculator.vat.value;
+         var totBeforeVat = (totBeforeVat + vatTot);
+         var wholeTotal = (subTott - discTotal);
+         
+         document.calculations.wholeTotal.value = wholeTotal;
+     }
+    </script>   
+    </head>
+    <body>
+        <!-- Opening a HTML Form. -->
+        <form name="calaculator">
+         
+            <!-- User fills out form here -->
+            <br/>
+            <input type="radio" name="programType" id="basicProgram" value="Basic" />Basic
+            <input type="radio" name="programType" id="proProgram" value="pro" checked />Pro
+            
+            <!-- Here result will be displayed -->
+            
+            <br/> 
+            Your total price is: <input type="text" name="total">
+            
+            <input type="button" value="Submit" onclick="javascript:packageTotal();">
+             
+        </form>
+    </body>
+</html>
