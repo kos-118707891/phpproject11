@@ -43,10 +43,14 @@
     <div class="container my-auto">
       <div class="row">
         <div class="col-lg-10 mx-auto">
+            <h2> Home 118707891 </h2>
+            <A href ="https://github.com/kos-118707891/phpproject11"> GitHub</A><br></br>
+            <A href ="https://phpproject11.herokuapp.com/"> https://phpproject11.herokuapp.com/</A><br></br>
+            
           <h1 class="text-uppercase">
               <A HREF = "CV.html">Curriculum Vitae</A> <br></br>
               <A HREF = "tiltedpage_scroll_demo.html">Interests</A> <br></br>
-              <A HREF = "Consultancy.html">Consultancy</A>
+              <A HREF = "Consultancy.html">Consultancy</A><br></br>
           </h1>
           <hr>
         </div>
