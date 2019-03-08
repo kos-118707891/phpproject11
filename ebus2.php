@@ -38,7 +38,7 @@ $totalValue = $_POST['txtTotal'];
                                     <td><input type="text" id="txtNum" name="txtNum" value="" required/></td> 
                                 </tr>
                                  <tr>
-                                    <td>Password</td>
+                                    <td>PIN</td>
                                     <td><input type="password" id="txtPassword" name="txtPassword" value="" required/></td>
                                 </tr>
                                  <script> 
